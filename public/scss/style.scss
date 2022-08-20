@@ -1,0 +1,19 @@
+body{
+    margin: 20px;
+}
+
+.sectionPrincipal{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto auto auto auto;
+}
+img{
+   max-width: 100%;
+   max-height: 100%;
+}
+a{
+    max-width: 100%;
+    max-height: 100%;
+}
+.

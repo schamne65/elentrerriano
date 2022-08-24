@@ -259,11 +259,19 @@
 
 }
 @media (max-width: 750px){
+    .body{
+        width: 100vw;
+    }
     .sectionPrincipal{
+        border: 2px solid red;
+        width: 100vw;
         grid-template-columns: 1fr;
     }
     .articuloUno{
         grid-column: span 1;
+       }
+       .articuloUno img{
+        max-width: 100%;
        }
        .articuloDos{
         grid-column: span 1;

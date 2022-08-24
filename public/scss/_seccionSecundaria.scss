@@ -1,0 +1,50 @@
+@mixin espacio {margin: 5px;
+    
+}
+
+.sectionSecundaria{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content:center ;
+    align-items: center;
+    margin: 5px;}
+.artUno{
+    max-width: 45%;
+    max-height: 100%;
+   
+  
+  @include espacio;
+
+}
+.artDos{
+   @include espacio;
+    max-width: 45%;
+    max-height: 100%;
+    
+
+}
+.artTres{
+    @include espacio;
+    max-width: 45%;
+    max-height: 100%;
+
+}
+.artCuatro{
+    @include espacio;
+    max-width: 45%;
+    max-height: 100%;
+
+}
+.artCinco{
+    @include espacio;
+    max-width: 45%;
+    max-height: 100%;
+
+}
+.artSeis{
+    max-width: 45%;
+    max-height: 100%;
+
+}

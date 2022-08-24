@@ -1,0 +1,102 @@
+@mixin contenedor {
+    
+        position: relative;
+    }
+@mixin parrafo {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    
+}    
+
+    @mixin img{
+    
+     max-width: 100%;
+        
+    }
+    @mixin spam {
+        position: absolute;
+        top: 3px;
+        left: 10px;
+    }
+    
+    .artUno{
+        @include contenedor;
+         p{
+            @include parrafo;
+        }
+        img{
+            @include img;
+        }
+         span{
+            @include spam;
+        }
+    }
+    
+    .artDos{
+        @include contenedor;
+        p{
+            @include parrafo;
+
+        }
+        img{
+            @include img;
+        }
+        span{
+            @include spam;
+        }
+    }
+
+    .artTres{
+        @include contenedor;
+        p{
+            @include parrafo;
+
+        }
+        img{
+            @include img;
+        }
+        span{
+            @include spam;
+        }
+    }
+    .artCuatro{
+        @include contenedor;
+        p{
+            @include parrafo;
+
+        }
+        img{
+            @include img;
+        }
+        span{
+            @include spam;
+        }
+    }
+    .artCinco{
+        @include contenedor;
+        p{
+            @include parrafo;
+
+        }
+        img{
+            @include img;
+        }
+         span{
+            @include spam;
+        }
+    }
+    .artSeis{
+        @include contenedor;
+        p{
+            @include parrafo;
+
+        }
+        img{
+            @include img;
+        }
+        span{
+            @include spam;
+        }
+    }
+

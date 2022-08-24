@@ -230,3 +230,61 @@
 .redes i{
     padding: 5px;
 }
+
+
+
+@media (max-width: 950px){
+    .sectionPrincipal{
+        grid-template-columns: repeat(4, 1fr);
+    }
+   .articuloUno{
+    grid-column: span 4;
+   }
+   .articuloDos{
+    grid-column: 1 / span 2;
+   }
+   .articuloTres{
+    grid-column: 3 / 5;
+   }
+
+   .articuloCuatro{
+    grid-column: 1 / span 2;
+   }
+   .articuloCinco{
+    grid-column: 3 / 5;
+   }
+   .articuloSeis{
+    grid-column:2/4
+   }
+
+}
+@media (max-width: 750px){
+    .sectionPrincipal{
+        grid-template-columns: 1fr;
+    }
+    .articuloUno{
+        grid-column: span 1;
+       }
+       .articuloDos{
+        grid-column: span 1;
+       }
+       .articuloTres{
+        grid-column: span 1;
+       }
+    
+       .articuloCuatro{
+        grid-column: span 1;
+       }
+       .articuloCinco{
+        grid-column: span 1;
+       }
+       .articuloSeis{
+        grid-column:span 1
+       }
+       img{
+        min-width: 100%;
+       }
+       
+}
+
+

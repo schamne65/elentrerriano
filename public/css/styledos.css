@@ -292,7 +292,44 @@
        img{
         min-width: 100%;
        }
+       .artUno{
+        max-width: 100%;
+        max-height: 100%;
        
+      
+      
+    
+    }
+    .artDos{
+    
+        max-width: 100%;
+        max-height: 100%;
+        
+    
+    }
+    .artTres{
+       
+        max-width: 100%;
+        max-height: 100%;
+    
+    }
+    .artCuatro{
+        
+        max-width: 100%;
+        max-height: 100%;
+    
+    }
+    .artCinco{
+       
+        max-width: 100%;
+        max-height: 100%;
+    
+    }
+    .artSeis{
+        max-width: 100%;
+        max-height: 100%;
+    
+    }
 }
 
 

@@ -160,4 +160,17 @@
   position: absolute;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E2C275;
+  padding: 30px;
+}
+
+.footer i {
+  font-size: 40px;
+  margin: 0 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

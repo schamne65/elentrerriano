@@ -2,10 +2,7 @@
 @use  "seccionSecundaria";
 @use"aside";
 @use "footer";
+@use "seccionPrincipal";
+@use "header";
 
 
-@media (max-width: 950px){
-    .body{
-        background-color:black;
-    }
-}

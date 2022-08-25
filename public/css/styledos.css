@@ -20,212 +20,27 @@
     color: black;
     font-size:60px;
 }
-/*grid seccion principal de la linea 3 a 168*/
-
-.sectionPrincipal{
-    
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.etiquetas{
+    background-color: blue;
     
 }
-.articuloUno{ 
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-    
-    grid-row: 1 / 3;
-    grid-column: 1 / 3;
-}
-
-.articuloUno p{
-    font-size: 20px;
-    /*-webkit-text-stroke: 1px black;*/
-    color: white;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-.articuloUno img{
-
- min-width: 100%;
-    
-}
-.articuloUno span{
-    position: absolute;
-    top: 3px;
-    left: 10px;
-}
-.articuloDos{
-    position: relative;
-    
-}
-.articuloDos article{
-   
-    height: 100%;
-}
-.articuloDos p{
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-.articuloDos img{
-
- width: 100%;
- height: 100%;
-    
-}
-.articuloDos span{
-    position: absolute;
-    top: 3px;
-    left: 10px;
-}
-.articuloTres{
-    position: relative;
-}
-.articuloTres p{
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-.articuloTres article{
-    height: 100%;
-}
-.articuloTres img{
-
- max-width: 100%;
- height: 100%;
-    
-}
-.articuloTres span{
-    position: absolute;
-    top: 3px;
-    left: 10px;
-}
-
-.articuloCuatro{
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.articuloCuatro p{
-    
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-.articuloCuatro article{
-    height: 100%;
-
-}
-.articuloCuatro img{
- height: 100%;
- max-width: 100%;
-    
-}
-.articuloCuatro span{
-    position: absolute;
-    top: 3px;
-    left: 10px;
-}
-.articuloCinco{
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    
-}
-.articuloCinco article{
-    height: 100%;
-}
-.articuloCinco p{
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-.articuloCinco img{
- height: 100%;
- max-width: 100%;
-    
-}
-.articuloCinco span{
-    position: absolute;
-    top: 3px;
-    left: 10px;
-}
-.articuloSeis{
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    
-}
-.articuloSeis p{
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-.articuloSeis article{
-    width: 100%;
-}
-.articuloSeis img{
- max-height: 100%;
-width: 100%;
-    
-}
-.articuloSeis span{
-    position: absolute;
-    top: 3px;
-    left: 10px;
-}
-/*seccion principal terminada*/
-
-/*header linea 170*/
-
-.divLogo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav{
-      display: flex;
-      justify-content:flex-start;
-      background-color: blue;
-}
-.nav a{
-    text-decoration: none;
-    padding: 10px;
-   color: azure;
-}
-.nav a:hover{
-    color: black;
-    background-color: white;
-}
-.divTop{
-  
-    display: flex;
-    
-}
-.redes {
-    width: 100vw;
-    margin-right: 10px;
-    display: flex;
-   justify-content: flex-end;
-   align-items: center;
-}
-.buscar{
-    display: flex;
-    flex-direction: row;
-    margin-left:5px ;
-}
-.redes i{
-    padding: 5px;
-}
-
-
 
 @media (max-width: 950px){
+    .headerDesk{
+        display: none;
+    }
+    .responsive {
+        background-color: blue;
+        display: flex;
+      
+       align-items: center;
+    }
+    .divLogo{
+        flex-grow: 3;
+    }
+    #dropdownMenu2{
+        background-color: black;
+    }
     .sectionPrincipal{
         grid-template-columns: repeat(4, 1fr);
     }
@@ -255,7 +70,6 @@ width: 100%;
         width: 100vw;
     }
     .sectionPrincipal{
-        border: 2px solid red;
         width: 100vw;
         grid-template-columns: 1fr;
     }

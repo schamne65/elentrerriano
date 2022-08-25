@@ -1,0 +1,51 @@
+.responsive{
+    display: none;
+}
+
+.divLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+      display: flex;
+      justify-content:flex-start;
+      background-color: blue;
+}
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+   color: azure;
+}
+.nav a:hover{
+    color: black;
+    background-color: white;
+}
+.divTop{
+  
+    display: flex;
+    
+}
+.redes {
+    width: 100vw;
+    margin-right: 10px;
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.redes i{
+    color: black;
+}
+.redes i:hover{
+    color: red;
+}
+.buscar{
+    display: flex;
+    flex-direction: row;
+    margin-left:5px ;
+}
+.redes i{
+    padding: 5px;
+}

@@ -138,4 +138,9 @@
     }
 }
 
+@media (max-width: 370px){
+.titulo{
+    font-size: 40px;
+}
+}
 

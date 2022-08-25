@@ -18,12 +18,11 @@
   @include espacio;
 
 }
-.artDos{
+.artDos {
    @include espacio;
     max-width: 45%;
     max-height: 100%;
-    
-
+   
 }
 .artTres{
     @include espacio;
@@ -47,4 +46,9 @@
     max-width: 45%;
     max-height: 100%;
 
+}
+
+.imgSecDos{
+    width: 450px;
+    height: 300px;
 }

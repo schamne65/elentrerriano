@@ -144,6 +144,11 @@
   max-height: 100%;
 }
 
+.imgSecDos {
+  width: 450px;
+  height: 300px;
+}
+
 .aside {
   position: relative;
   margin: 20px;
